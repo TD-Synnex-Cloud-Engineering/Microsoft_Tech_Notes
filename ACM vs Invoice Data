@@ -1,0 +1,47 @@
+1.	Purpose 
+IMPORTANT: The invoice from TD SYNNEX to the reseller should be considered the single source of truth for invoicing end user customers.  ACM and third-party tools should not be used for invoicing or invoice reconciliation.
+Azure Cost Management is a tool provided by Microsoft in the Azure portal that allows end user customers to monitor, budget, forecast, and optimize their Azure spending.
+The data in ACM is not intended to support invoice reconciliation.  The reseller should refer to reconciliation files available on TD SYNNEX platforms for line-item details.
+2.	Table of Contents
+
+1.	Purpose	1
+2.	Table of Contents	1
+3.	Reference	1
+4.	Definitions	2
+5.	Associated Documents	2
+6.	Document Approval	2
+7.	Document Revision History	2
+
+3.	Reference
+TD SYNNEX has found that the data in ACM is generally within 3-5% of the invoice.  There are a few reasons that the costs do not align including:
+3.1.	Estimates vs Actuals
+Azure Cost Management provides estimated usage and cost data, which may not reflect final pricing, discounts, taxes, or currency conversions applied in the actual invoice.
+3.2.	Timing
+Cost Management data is often near real-time or daily, whereas the Partner Center reconciliation file contains finalized monthly billing data that aligns with your invoice.
+3.3.	Volume Pricing
+Some resources have some amount of free consumption after which there are additional charges.  Additionally, some charges may decrease as volume increases.
+3.4.	Missing Financial Details
+ACM does not include tax calculations, partner markup or discounts, and credits or adjustments.
+3.5.	Missing Charges
+ACM is not guaranteed to include all charges for resources at a specific point in time.
+3.6.	Non-Azure Resources
+ACM may include costs for resources not in Azure such as Modern Worlplace items.
+3.7.	Partner or 3rd Party Services
+ACM will not include charges from partners or 3rd parties for professional / managed services or other products that they may have included in their invoice.
+3.8.	Costs from Prior Periods
+Microsoft may invoice some costs from prior periods in the current invoice.  These costs would not be reflected in ACM for the current month.
+
+4.	Definitions
+Term	Definition
+ACM	Azure Cost Management is a native tool within the Azure portal that helps users monitor and optimize cloud spending across Azure services.
+MCM	Microsoft Cost Management is often used interchangeably with ACM.  It includes data from ACM but also includes Microsoft 365 and has APIs for programmatic access.
+5.	Associated Documents
+•	Overview of Cost Management - Microsoft Cost Management | Microsoft Learn
+6.	Document Approval
+This document has been approved by:
+•	Manager, Cloud Sales Engineering
+7.	Document Revision History
+Number	Effective Date	Revision History	Author
+1.0	7/25/2025	Initial Draft	David Bloom
+
+
