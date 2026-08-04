@@ -1,6 +1,6 @@
 # 1.	Purpose 
 
-**IMPORTANT:** The invoice from TD SYNNEX to the reseller should be considered the single source of truth for invoicing end user customers.  ACM and third-party tools should not be used for invoicing or invoice reconciliation.
+**$${\color{red}IMPORTANT:}$$** The invoice from TD SYNNEX to the reseller should be considered the single source of truth for invoicing end user customers.  ACM and third-party tools should not be used for invoicing or invoice reconciliation.
 
 Azure Cost Management is a tool provided by Microsoft in the Azure portal that allows end user customers to monitor, budget, forecast, and optimize their Azure spending.
 
